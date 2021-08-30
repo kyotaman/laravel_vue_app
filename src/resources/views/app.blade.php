@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Vue Laravel SPA') }}</title>
+    <title>Task Lists</title>
 
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
@@ -16,7 +16,7 @@
 <div id="app">
     <header-component></header-component>
     <router-view></router-view>
-    <example-component></example-component>
+    {{-- <example-component></example-component> --}}
 </div>
 <!-- Scripts -->
 <script src="{{ mix('/js/app.js') }}" defer></script>
